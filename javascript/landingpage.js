@@ -1,42 +1,37 @@
-// $(document).ready(function(){
-// 	// var textColor = $('h1').css('color');
-// 	$('h1').on('mouseover', function() {
-//   	$(this).animate({
-//   		opacity: 0.0,
-//   		paddingLeft: '+=80'
-//   	}, 500, function(){
-//   		$(this).remove();
+$(document).ready(function(){
+	// var textColor = $('h1').css('color');
+	$('#header').on('mouseover', function() {
+  	$(this).animate({
+  		opacity: 0.0,
+  		paddingLeft: '+=80'
+  	}, 500, function(){
+  		$(this).remove();
 
-//   	});
-//   	});
-
-
-
-//   	// console.log("changed color of header!")
-//  //    $(this).css("color", "#ffee00");
-//  //    });
-
-// 	// $('h1').on("mouseout", function() {
-//  //    	$(this).css("color", "#595959");
-
-//  //    });
+  	});
+  	});
 
 
-// });
+
+  	// console.log("changed color of header!")
+ //    $(this).css("color", "#ffee00");
+ //    });
+
+
+});
 
 $(document).ready(function() {
   
-  $('h1').on('mouseover', changeKerning(){
+  $('#box').on('mouseover', function(){
   	console.log('did this work?');
-    $(this).css({'font-size': '100px', 'letter-spacing': '10px'});
+    $(this).css({'height': '30%'});
     
   });
 });
 
 // function changeKerning() {
-//   document.getElementById("demo").innerHTML = Date();
+//   document.getElementById("header").innerHTML = Date();
 // }
 
 function textTransform() {
-  document.getElementByClass("menu-options").style.textTransform = "uppercase";
+  document.getElementByClassName("menu-options").style.textTransform = "uppercase";
 }

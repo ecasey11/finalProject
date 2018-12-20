@@ -30,29 +30,48 @@ body {
   	right: 0;
 }
 
+#pressTitle {
+	position: absolute;
+	margin-top: 175px;
+	display: block;
+	width: 800px;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 300px;
+}
 
-img{
-	height: 200px;
-	width: 200px;
-	display: inline-block;
-	padding: 25px;
-	margin-left: 30px;
+img {
+	position: relative;
+	padding: 15px;
+}
+
+#vogue {
+	height: 300px;
+	width: 300px;
+	display: block;
+	margin-top: 350px;
+	margin-left: 20px;
 
 }
 
 #hwoodreporter {
 	height: 100px;
 	width: 300px;
+	margin-top: 460px;
+	/*margin-left: 10px;*/
+
 }
 
 #nytimes {
 	height: 100px;
 	width: 400px;
+	margin-top: 460px;
 }
 
 #time {
-	height: 200px;
-	width: 300px;
+	height: 100px;
+	width: 250px;
+	margin-top: 450px;
 }
 
 .menu {
