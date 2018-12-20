@@ -1,0 +1,107 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	background-color: #fbfbfb;
+/*	background-image: url("images/cast.jpg");
+*/}
+
+#header {
+	background-color: #990099;
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	letter-spacing: 3px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	opacity: .95;
+	font-size: 54px;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+#logo {
+	height: 100px;
+	position: fixed;
+	float: right;
+	z-index: 1;
+	bottom: 0;
+  	right: 0;
+}
+
+
+img{
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	padding: 25px;
+	margin-left: 30px;
+
+}
+
+#hwoodreporter {
+	height: 100px;
+	width: 300px;
+}
+
+#nytimes {
+	height: 100px;
+	width: 400px;
+}
+
+#time {
+	height: 200px;
+	width: 300px;
+}
+
+.menu {
+	height: 40px;
+	width: 40px;
+	padding: 16px;
+  	font-size: 16px;
+ 	border: none;
+ 	cursor: pointer;
+  	float: left;
+  	z-index: 1;
+  	position: fixed;
+}
+
+.dropdown {
+  	position: fixed;
+ 	display: inline-block;
+ 	z-index: 1;
+}
+
+.menu-options {
+  	display: none;
+  	position: absolute;
+  	background-color: #f9f9f9;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+  	border-radius: 10px;
+  	font-size: 20px;
+}
+
+.menu-options a {
+  	color: black;
+  	padding: 12px 16px;
+  	text-decoration: none;
+  	display: block;
+}
+
+.menu-options a:hover{
+	color: #990099;
+}
+
+.dropdown:hover .menu-options {
+  	display: block;
+  	margin-top: 72px;
+}
+
+.dropdown:hover .menu {
+	background-color: black;
+	border-radius: 15px;
+	border-width: 0px;
+}
